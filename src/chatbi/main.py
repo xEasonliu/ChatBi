@@ -3,7 +3,7 @@
 整合所有模块，提供命令行交互界面。
 这是 ChatBI Text2SQL 系统的统一入口，串联 query_parser → prompt_builder →
 llm_client → database → result_formatter 完整链路，
-并整合第 7 课规则修复与第 9 课指标知识注入。
+并整合规则修复与指标知识注入。
 """
 import json
 import sys
