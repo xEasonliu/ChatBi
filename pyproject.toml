@@ -1,10 +1,10 @@
 [project]
 name = "chatbi"
 version = "0.1.0"
-description = "Add your description here"
+description = "自然语言->SQL语句"
 readme = "README.md"
 authors = [
-    { name = "eason", email = "123@163.com" }
+    { name = "eason", email = "KentonLiu@163.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
