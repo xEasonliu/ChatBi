@@ -1,13 +1,13 @@
 """
 字段语义匹配模块
 
-第 16 课：在表召回基础上，实现字段级的语义匹配。
-使用 LangChain + ChromaDB（复用第 15 课基础设施），
+在表召回基础上，实现字段级的语义匹配。
+使用 LangChain + ChromaDB，
 为候选表的所有字段构建向量索引，结合业务规则实现混合匹配。
 
 解决经典歧义：gross_amount vs net_amount、region vs country 等。
 
-依赖安装：同第 15 课（langchain-openai, langchain-chroma, chromadb）
+依赖安装：（langchain-openai, langchain-chroma, chromadb）
 """
 
 import os
