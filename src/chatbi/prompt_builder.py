@@ -9,7 +9,7 @@ from openai import OpenAI
 Prompt 构造模块
 负责将 Schema 信息、Few-shot 示例和用户问题组装为完整 Prompt。
 Schema 和示例在此集中维护，便于后续课程中动态扩展。
-第 7 课增强：新增 RULES（业务规则注入层）与 ERROR_GUARDS（错误防护层），
+新增 RULES（业务规则注入层）与 ERROR_GUARDS（错误防护层），
 通过 build_prompt 的可选参数控制是否注入，实现 Prompt 策略的灵活切换。
 """
 
